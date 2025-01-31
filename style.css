@@ -123,7 +123,8 @@ button {
 }
 
 .foto-nosotros img {
-    width: 250px; /* Ajusta el tamaño según necesites */
+    width: 80%; /* Ajusta el tamaño relativo al contenedor */
+    max-width: 250px; /* Establece un tamaño máximo */
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     animation: fadeIn 2s ease-in-out, heartbeat 2s infinite alternate;
@@ -133,6 +134,7 @@ button {
 .foto-nosotros img:hover {
     transform: scale(1.1); /* Efecto de agrandado al pasar el mouse */
 }
+
 
 /* Animación de aparición */
 @keyframes fadeIn {
