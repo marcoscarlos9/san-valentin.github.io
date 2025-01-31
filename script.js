@@ -20,7 +20,7 @@ function moverBotonNo() {
 // 🌹 Animación de rosas cayendo
 function crearRosa() {
     const rosa = document.createElement("img");
-    rosa.src = "amar.png";
+    rosa.src = "amar.png"; // Asegúrate de que la ruta sea correcta
     rosa.classList.add("rosa");
     rosa.style.left = Math.random() * window.innerWidth + "px";
     rosa.style.animationDuration = Math.random() * 4 + 2 + "s";
